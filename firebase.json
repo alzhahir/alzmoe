@@ -1,0 +1,23 @@
+{
+  "hosting": {
+    "public": "public",
+    "cleanUrls": true,
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "site": "alzhahirurl",
+    "AppAssociation": "auto",
+    "rewrites": [
+      {
+        "source": "/**",
+        "dynamicLinks": true
+      },
+      {
+        "source": "/xsr/**",
+        "dynamicLinks": true
+      }
+    ]
+  }
+}
