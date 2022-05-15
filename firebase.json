@@ -7,7 +7,7 @@
       "**/.*",
       "**/node_modules/**"
     ],
-    "site": "alzhahirurl",
+    "site": "url-shortener-a2cbc",
     "AppAssociation": "auto",
     "rewrites": [
       {
